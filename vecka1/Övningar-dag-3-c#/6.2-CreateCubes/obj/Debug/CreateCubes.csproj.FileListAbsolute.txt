@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\ConsoleApp55\bin\Debug\ConsoleApp55.exe.config
+C:\Users\Administrator\source\repos\ConsoleApp55\bin\Debug\ConsoleApp55.exe
+C:\Users\Administrator\source\repos\ConsoleApp55\bin\Debug\ConsoleApp55.pdb
+C:\Users\Administrator\source\repos\ConsoleApp55\obj\Debug\CreateCubes.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ConsoleApp55\obj\Debug\ConsoleApp55.exe
+C:\Users\Administrator\source\repos\ConsoleApp55\obj\Debug\ConsoleApp55.pdb
+C:\Users\Administrator\Dropbox\vecka1\Övningar-dag-3-c#\6.2-CreateCubes\obj\Debug\CreateCubes.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Dropbox\vecka1\Övningar-dag-3-c#\6.2-CreateCubes\obj\Debug\CreateCubes.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Dropbox\vecka1\Övningar-dag-3-c#\6.2-CreateCubes\obj\Debug\ConsoleApp55.exe
+C:\Users\Administrator\Dropbox\vecka1\Övningar-dag-3-c#\6.2-CreateCubes\obj\Debug\ConsoleApp55.pdb

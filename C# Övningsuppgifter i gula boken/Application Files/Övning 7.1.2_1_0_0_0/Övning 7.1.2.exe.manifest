@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Övning 7.1.2.exe" version="1.0.0.0" publicKeyToken="37c25e02001ecce2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Övning 7.1.2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Övning 7.1.2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Övning 7.1.2.exe" size="5600">
+      <assemblyIdentity name="Övning 7.1.2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aCr9Hffa+i0XfUcVFqq7rPH6W4VjmmPp7PYXRj0heeo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Övning 7.1.2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-BCELH18\cbirk" issuerKeyHash="5973ab9a4ed8f5de1740e6b347cdc12f29f14673" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ClyTbo6nheCeL1VF6mlUR6qgdEpQ+4PraPq68iKV7/A=</DigestValue></Reference></SignedInfo><SignatureValue>cZxsAV7jemTC9UezNrtWJmW6DfGill8sLZZAu3LgD8Z6F0qw8xw6AyYQuqRvfgOFDX/GYkg6UdHThOvRL2AMQnYJf6OsDDRHVfo868HYUWuenMrfIMsxkNnzaC4VCxz4L+Ab09P1RKKT9TgLM9MBwnZaKMIZ50OSzr/cX245yqs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oDUi07PctQ1VmMbMXjeuETf8d/woHcRWE7Xufhj6SWb/JDdKGRjGiovFU3N4i3yGZxq9hb91q8kLfAVqXb9X51numOMnGBKODqRhUL+CwAxZyGok8DUyzXObS104HlfiuFrJEZ83YxwC0sVuKNEm6uMtbRAOfiIyIwdVpkB2KJ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f0ef9522f2bafa68eb83fb504a74a0aa475469ea45552f9ee085a78e6e935c0a" Description="" Url=""><as:assemblyIdentity name="Övning 7.1.2.exe" version="1.0.0.0" publicKeyToken="37c25e02001ecce2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-BCELH18\cbirk</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kma+LOcDFx/I4WTIOjePpc3jaSqB9/bljGXn2F1HFjo=</DigestValue></Reference></SignedInfo><SignatureValue>LJcOLxFYkgegpFHfuL6eA+lA2f2cjOYgJd+tsdmPxc8pRdneudG9HkhYfgMDDt8eYqw5+a36ukK3UzCD3LeiTpqKV4zyqLJ+4AJy2Zk9b4uIn/Jtj17kkTkDoBxdOiR7Un6RPFDzCw48idP2BkxA7FAZYrrexvFR+k7ndBb5KhM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oDUi07PctQ1VmMbMXjeuETf8d/woHcRWE7Xufhj6SWb/JDdKGRjGiovFU3N4i3yGZxq9hb91q8kLfAVqXb9X51numOMnGBKODqRhUL+CwAxZyGok8DUyzXObS104HlfiuFrJEZ83YxwC0sVuKNEm6uMtbRAOfiIyIwdVpkB2KJ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYSXsvwy4SYJPMg7uboCxVTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEIAQwBFAEwASAAxADgAXABjAGIAaQByAGswHhcNMTgwNzE5MTY1NDU1WhcNMTkwNzE5MjI1NDU1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEIAQwBFAEwASAAxADgAXABjAGIAaQByAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKA1ItOz3LUNVZjGzF43rhE3/Hf8KB3EVhO17n4Y+klm/yQ3ShkYxoqLxVNzeIt8hmcavYW/davJC3wFal2/V+dZ7pjjJxgSjg6kYVC/gsAMWchqJPA1Ms1zm0tdOB5X4rhayRGfN2McAtLFbijRJurjLW0QDn4iMiMHVaZAdiidAgMBAAEwDQYJKoZIhvcNAQELBQADgYEARNMylwovWngzJMvtLU5yy/EeVVmv03iVj6y4rbTJ1Ds86G+BXBb+zl3UiZe3wDEMCgysR7mja9WDbA3jvDRIQm1Jqb7wKrzhV2vS728xLPy3DM+PGPE/OjjO6+46mJDeMQkEx5LWE74upBoyqybqb9RObJq6BfvR684LVqm7Vaw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
